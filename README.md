@@ -1,1 +1,0 @@
-# rhit-mccullrs.github.io
