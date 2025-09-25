@@ -11,8 +11,12 @@ a {
 	color: #27757b;
 	border-bottom: 1px dotted #27757b;
 	text-decoration: none;
+	margin: 0px;
+	padding: 10px;
+}
+
+li {
 	margin: 5px;
-	font-size: 1.2em;
 }
 
 a:hover {
