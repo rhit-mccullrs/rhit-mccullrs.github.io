@@ -16,8 +16,8 @@ window.addEventListener("load", (e) => {
                     </nav>\
  	            </footer>";
     
-    main = document.getElementsByTagName("main");
-    body = document.getElementsByTagName("body");
+    main = document.getElementsByTagName("main")[0];
+    body = document.getElementsByTagName("body")[0];
 
     main.innerHTML = navBar + main.innerHTML;
     body.innerHTML = body.innerHTML + footer;
