@@ -1,11 +1,13 @@
 window.addEventListener("load", (e) => {
-    navBar =   "<center>\
-                    <nav id=\"nav-bar\">\
-                        <button><a href=\"index.html\" aria-label=\"Main page\">Main page</a></button>\
-                        <button><a href=\"resume.html\" aria-label=\"Resume page\">Resume page</a></button>\
-                        <button><a href=\"portfolio.html\" aria-label=\"Portfolio page\">Portfolio page</a></button>\
-                    </nav>\
-                </center>";
+    navBar =   "<section>"
+                    "<center>\
+                        <nav id=\"nav-bar\">\
+                            <button><a href=\"index.html\" aria-label=\"Main page\">Main page</a></button>\
+                            <button><a href=\"resume.html\" aria-label=\"Resume page\">Resume page</a></button>\
+                            <button><a href=\"portfolio.html\" aria-label=\"Portfolio page\">Portfolio page</a></button>\
+                        </nav>\
+                    </center>\
+                </section>";
     
     footer =   "<footer>\
                     <nav>\
