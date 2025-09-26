@@ -1,6 +1,6 @@
 window.addEventListener("load", (e) => {
-    navBar =   "<section>"
-                    "<center>\
+    navBar =   "<section>\
+                    <center>\
                         <nav id=\"nav-bar\">\
                             <button><a href=\"index.html\" aria-label=\"Main page\">Main page</a></button>\
                             <button><a href=\"resume.html\" aria-label=\"Resume page\">Resume page</a></button>\
@@ -10,7 +10,7 @@ window.addEventListener("load", (e) => {
                 </section>";
     
     footer =   "<footer>\
-                    <nav>\
+                    <nav id=\"footer\">\
                         <button><a href=\"https://app.joinhandshake.com/profiles/bu5wmu\">Handshake</a></button>\
                         <button><a href=\"www.linkedin.com/in/riley-mcculloch-170114387\">LinkedIn</a></button>\
                     </nav>\
