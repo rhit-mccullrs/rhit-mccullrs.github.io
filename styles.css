@@ -1,5 +1,5 @@
 html {
-    color:lightgray;
+    background-color:lightgray;
 }
 
 .nav-bar {
@@ -10,4 +10,5 @@ html {
     background-color: black;
     color:white;
     padding:20px;
+    margin-bottom:20px;
 }
