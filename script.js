@@ -12,8 +12,8 @@ window.addEventListener("load", (e) => {
     footer =   "<footer>\
                     <center>\
                         <nav id=\"footer\">\
-                            <a class=\"button-links\" href=\"https://app.joinhandshake.com/profiles/bu5wmu\" aria-label=\"Riley's Handshake profile\">Handshake</a>\
-                            <a class=\"button-links\" href=\"www.linkedin.com/in/riley-mcculloch-170114387\" aria-label=\"Riley's LinkedIn profile\">LinkedIn</a>\
+                            <a class=\"button-links\" href=\"https://app.joinhandshake.com/profiles/bu5wmu\" target=\"_blank\" aria-label=\"Riley's Handshake profile\">Handshake</a>\
+                            <a class=\"button-links\" href=\"https://linkedin.com/in/riley-mcculloch-170114387\" target=\"_blank\" aria-label=\"Riley's LinkedIn profile\">LinkedIn</a>\
                         </nav>\
                     </center>\
  	            </footer>";
