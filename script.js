@@ -1,4 +1,4 @@
-//window.addEventListener("load", (e) => {
+window.addEventListener("load", (e) => {
     navBar =   "<section>\
                     <center>\
                         <nav id=\"nav-bar\">\
@@ -23,4 +23,4 @@
 
     main.innerHTML = navBar + main.innerHTML;
     body.innerHTML = body.innerHTML + footer;
-//});
+});
