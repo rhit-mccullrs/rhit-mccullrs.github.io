@@ -41,8 +41,8 @@ h1 {
 }
 
 #me-left {
-    float:left;
     border: 2px solid black;
+    border-bottom:none;
 }
 
 #me-right {
@@ -51,4 +51,10 @@ h1 {
 
 #main-center {
     margin: 0px 10px 0px 10px;
+    width:30vw;
+    margin:auto;
+}
+
+#me-photo {
+    width: calc(30vw - 4px);
 }
