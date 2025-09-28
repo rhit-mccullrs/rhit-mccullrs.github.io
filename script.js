@@ -2,9 +2,9 @@ window.addEventListener("load", (e) => {
     navBar =   "<section>\
                     <center>\
                         <nav id=\"nav-bar\">\
-                            <button href=\"index.html\" aria-label=\"Main page\">About Me</button>\
-                            <button href=\"resume.html\" aria-label=\"Resume page\">Resume</button>\
-                            <button href=\"portfolio.html\" aria-label=\"Portfolio page\">Portfolio</button>\
+                            <a href=\"index.html\" aria-label=\"Main page\">About Me</a>\
+                            <a href=\"resume.html\" aria-label=\"Resume page\">Resume</a>\
+                            <a href=\"portfolio.html\" aria-label=\"Portfolio page\">Portfolio</a>\
                         </nav>\
                     </center>\
                 </section>";
@@ -12,8 +12,8 @@ window.addEventListener("load", (e) => {
     footer =   "<footer>\
                     <center>\
                         <nav id=\"footer\">\
-                            <button href=\"https://app.joinhandshake.com/profiles/bu5wmu\">Handshake</button>\
-                            <button href=\"www.linkedin.com/in/riley-mcculloch-170114387\">LinkedIn</button>\
+                            <a href=\"https://app.joinhandshake.com/profiles/bu5wmu\">Handshake</a>\
+                            <a href=\"www.linkedin.com/in/riley-mcculloch-170114387\">LinkedIn</a>\
                         </nav>\
                     </center>\
  	            </footer>";
