@@ -48,3 +48,7 @@ h1 {
 #me-right {
     border: 2px solid black;
 }
+
+#main-center {
+    margin: 0px 10px 0px 10px;
+}
