@@ -2,7 +2,7 @@ window.addEventListener("load", (e) => {
     navBar =   "<section>\
                     <center>\
                         <nav id=\"nav-bar\">\
-                            <a class=\"button-links\" href=\"index.html\" aria-label=\"Main page\">About Me</a>\
+                            <a class=\"button-links\" href=\"index.html\" aria-label=\"Main page\">Main</a>\
                             <a class=\"button-links\" href=\"resume.html\" aria-label=\"Resume page\">Resume</a>\
                             <a class=\"button-links\" href=\"portfolio.html\" aria-label=\"Portfolio page\">Portfolio</a>\
                         </nav>\
