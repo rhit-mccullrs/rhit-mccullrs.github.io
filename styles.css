@@ -17,5 +17,7 @@ html {
 }
 
 #personal-photo {
+    /* https://www.w3schools.com/css/css_positioning.asp */
+    position:relative;
     top: 20px;
 }
