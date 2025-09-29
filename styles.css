@@ -28,7 +28,6 @@ h1 {
 }
 
 .fixed {
-    position:fixed;
     width:100%;
     box-sizing:border-box;
     background-color:black;
@@ -59,10 +58,12 @@ footer center nav ul li a:visited {
 
 #nav-bar {
     top:0px;
+    position:fixed;
 }
 
 #footer {
     bottom:0px;
+    margin-top:10px;
 }
 
 .topic {
