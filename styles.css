@@ -32,6 +32,11 @@ h1 {
     font-size:1.7em;
 }
 
+.button-links:active {
+    /*https://stackoverflow.com/questions/42134731/css-change-button-style-after-click*/
+    color:white;
+}
+
 .button-links:hover {
     background-color:rgb(83, 83, 83)
 }
