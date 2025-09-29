@@ -91,6 +91,15 @@ footer center nav ul li a:visited {
     margin-right:auto;
 }
 
+#edit-tree {
+    width:30vw;
+}
+.display-right {
+    display:flex;
+}
+.hidden {
+    display:none;
+}
 #me-photo {
     width: calc(var(--center-width) - 3px);
     margin-top:0px;
