@@ -27,15 +27,16 @@ window.addEventListener("load", (e) => {
 
     main.innerHTML = navBar + main.innerHTML;
     body.innerHTML = body.innerHTML + footer;
-});
 
-let button = document.getElementById("toggle-tree");
-let tree = document.getElementById("edit-tree");
-button.addEventListener("click", (e) => {
-    if (tree.classList.contains("hidden")) {
-        tree.classList.remove("hidden");
-    }
-    else {
-        tree.classList.add("hidden");
-    }
+    let button = document.getElementById("toggle-tree");
+    let tree = document.getElementById("edit-tree");
+    button.addEventListener("click", (e) => {
+        if (tree.classList.contains("hidden")) {
+            tree.classList.remove("hidden");
+        }
+        else {
+            tree.classList.add("hidden");
+        }
+    });
+
 });
