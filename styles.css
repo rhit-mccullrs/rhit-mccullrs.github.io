@@ -42,14 +42,14 @@ h1 {
     clear:both;
 }
 
-#topic {
+.topic {
     background-color:skyblue;
     margin: 0px;
     padding:10px;
     border-top:2px solid black;
 }
 
-#me-left {
+#photo-top {
     border: 2px solid black;
     border-bottom:none;
 }
