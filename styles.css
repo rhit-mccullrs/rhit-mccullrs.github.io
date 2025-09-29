@@ -1,5 +1,6 @@
 :root {
     --center-width:40vw;
+    --nav-bar-padding:15px;
 }
 * {
     font-family:Arial, Helvetica, sans-serif;
@@ -32,7 +33,7 @@ h1 {
     font-size:1.7em;
 }
 
-.button-links:active {
+.button-links:visited {
     /*https://stackoverflow.com/questions/42134731/css-change-button-style-after-click*/
     color:white;
 }
@@ -44,6 +45,19 @@ h1 {
 #nav-bar {
     position:fixed;
     top:0px;
+    width:100%;
+    box-sizing:border-box;
+    background-color:black;
+    padding:var(--nav-bar-padding);
+}
+
+.nav-button {
+    color:#00bc00;
+    text-decoration:none;
+    margin-left:5px;
+    margin-right:5px;
+    font-size:1.5em;
+    padding:var(--nav-bar-padding);
 }
 
 #footer {
@@ -81,6 +95,7 @@ h1 {
 
 #me-photo {
     width: calc(var(--center-width) - 3px);
+    margin-top:60px;
 }
 
 .normal-group {
