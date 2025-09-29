@@ -14,6 +14,7 @@ body {
 
 h1 {
     color:#00bc00;
+    font-size:2.2em;
 }
 
 #name {
@@ -52,6 +53,7 @@ h1 {
     margin: 0px;
     padding:10px;
     border-top:2px solid black;
+    font-size:2em;
 }
 
 #photo-top {
@@ -64,6 +66,8 @@ h1 {
     background-color:lavender;
     /*https://www.w3schools.com/howto/howto_css_list_without_bullets.asp*/
     list-style-type:none;
+    padding:0px;
+    margin:0px;
 }
 
 #main-center {
