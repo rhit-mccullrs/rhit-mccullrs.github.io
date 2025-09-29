@@ -8,8 +8,6 @@
 body {
     /*https://www.w3schools.com/html/html_images_background.asp*/
     background-image: url("hackering.gif");
-    width: 100vw;
-    height: 100vh;
 }
 
 h1 {
@@ -64,10 +62,9 @@ h1 {
 .description-text {
     border: 2px solid black;
     background-color:lavender;
-    /*https://www.w3schools.com/howto/howto_css_list_without_bullets.asp*/
-    list-style-type:none;
     padding:0px;
     margin:0px;
+    font-size:1.3em;
 }
 
 #main-center {
