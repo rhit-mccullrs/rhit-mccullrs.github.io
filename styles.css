@@ -42,7 +42,8 @@ h1 {
 }
 
 #nav-bar {
-    margin-bottom:20px;
+    position:fixed;
+    top:0px;
 }
 
 #footer {
