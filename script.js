@@ -30,11 +30,12 @@ window.addEventListener("load", (e) => {
 });
 
 let button = document.getElementById("toggle-tree");
+let tree = document.getElementById("edit-tree");
 button.addEventListener("click", (e) => {
-    if (button.classList.contains("hidden")) {
-        button.classList.remove("hidden");
+    if (tree.classList.contains("hidden")) {
+        tree.classList.remove("hidden");
     }
     else {
-        button.classList.add("hidden");
+        tree.classList.add("hidden");
     }
 });
