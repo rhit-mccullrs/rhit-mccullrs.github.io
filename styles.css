@@ -1,6 +1,7 @@
 :root {
     --center-width:40vw;
     --nav-bar-padding:15px;
+    --nav-vertical-correction:90px;
 }
 * {
     font-family:Arial, Helvetica, sans-serif;
@@ -20,6 +21,10 @@ h1 {
 
 #name { 
     color:black;
+}
+
+.top-element {
+    margin-top:var(--nav-vertical-correction);
 }
 
 .fixed {
@@ -84,7 +89,6 @@ footer center nav ul li a:visited {
     width:var(--center-width);
     margin-left:auto;
     margin-right:auto;
-    margin-top:90px;
 }
 
 #me-photo {
