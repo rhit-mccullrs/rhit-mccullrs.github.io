@@ -28,3 +28,13 @@ window.addEventListener("load", (e) => {
     main.innerHTML = navBar + main.innerHTML;
     body.innerHTML = body.innerHTML + footer;
 });
+
+let button = document.getElementById("toggle-tree");
+button.addEventListener("click", (e) => {
+    if (button.classList.contains("hidden")) {
+        button.classList.remove("hidden");
+    }
+    else {
+        button.classList.add("hidden");
+    }
+});
