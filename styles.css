@@ -1,7 +1,6 @@
 :root {
     --center-width:40vw;
     --nav-bar-padding:15px;
-    --nav-vertical-correction:90px;
 }
 * {
     font-family:Arial, Helvetica, sans-serif;
@@ -23,10 +22,6 @@ h1 {
     color:black;
 }
 
-.top-element {
-    margin-top:var(--nav-vertical-correction);
-}
-
 .fixed {
     position:fixed;
     width:100%;
@@ -37,6 +32,7 @@ h1 {
     margin:0px;
     /*https://www.w3schools.com/css/css_align.asp*/
     justify-content:center;
+    list-style-type:none;
 }
 
 footer center nav ul li a:visited {
@@ -52,8 +48,7 @@ footer center nav ul li a:visited {
     color:#00bc00;
     text-decoration:none;
     font-size:2em;
-    padding-left:var(--nav-bar-padding);
-    padding-right:var(--nav-bar-padding);
+    padding:var(--nav-bar-padding);
 }
 
 #nav-bar {
@@ -62,6 +57,12 @@ footer center nav ul li a:visited {
 
 #footer {
     bottom:0px;
+}
+
+#about-me {
+    border-left:2px solid black;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
 }
 
 .topic {
@@ -89,6 +90,7 @@ footer center nav ul li a:visited {
     width:var(--center-width);
     margin-left:auto;
     margin-right:auto;
+    margin-top:90px;
 }
 
 #me-photo {
