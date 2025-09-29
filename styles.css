@@ -69,16 +69,11 @@ footer center nav ul li a:visited {
     background-color:skyblue;
     margin: 0px;
     padding:10px;
-    border:2px solid black;
+    border-top:2px solid black;
+    border-left:2px solid black;
+    border-right:2px solid black;
     font-size:2em;
     text-align:center;
-}
-
-#photo-top {
-    border-top: 2px solid black;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
-    border-bottom:none;
 }
 
 .description-text {
@@ -86,13 +81,6 @@ footer center nav ul li a:visited {
     background-color:lavender;
     margin:0px;
     font-size:1.3em;
-}
-
-#about-me {
-    border-left:2px solid black;
-    border-right:2px solid black;
-    border-bottom:2px solid black;
-    border-top:none;
 }
 
 #main-center {
@@ -104,6 +92,10 @@ footer center nav ul li a:visited {
 #me-photo {
     width: calc(var(--center-width) - 3px);
     margin-top:0px;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom:none;
 }
 
 .normal-group {
