@@ -5,7 +5,7 @@
     font-family:Arial, Helvetica, sans-serif;
 }
 
-#main-body {
+body {
     /*https://www.w3schools.com/html/html_images_background.asp*/
     background-image: url("hackering.gif");
     width: 100vw;
