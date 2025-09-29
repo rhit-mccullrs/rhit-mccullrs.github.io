@@ -34,7 +34,7 @@ h1 {
     justify-content:center;
 }
 
-footer center nav li a:visited {
+footer center nav ul li a:visited {
     /*https://stackoverflow.com/questions/42134731/css-change-button-style-after-click*/
     color:white;
 }
