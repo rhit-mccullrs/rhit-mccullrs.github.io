@@ -22,37 +22,8 @@ h1 {
     color:black;
 }
 
-.button-links {
-    margin:auto;
-    text-decoration:none;
-    background-color: black;
-    color:#00bc00;
-    padding:20px;
-    text-align:center;
-    line-height:3em;
-    font-size:1.7em;
-}
-
-.button-links:visited {
-    /*https://stackoverflow.com/questions/42134731/css-change-button-style-after-click*/
-    color:white;
-}
-
-.button-links:hover {
-    background-color:rgb(83, 83, 83)
-}
-
-.nav-button {
-    color:#00bc00;
-    text-decoration:none;
-    font-size:1.5em;
-    padding:var(--nav-bar-padding);
-    width:100%;
-}
-
-nav ul {
+.fixed {
     position:fixed;
-    top:0px;
     width:100%;
     box-sizing:border-box;
     background-color:black;
@@ -63,10 +34,29 @@ nav ul {
     justify-content:center;
 }
 
+footer center nav li a:visited {
+    /*https://stackoverflow.com/questions/42134731/css-change-button-style-after-click*/
+    color:white;
+}
+
+.button:hover {
+    background-color:rgb(83, 83, 83)
+}
+
+.button {
+    color:#00bc00;
+    text-decoration:none;
+    font-size:2em;
+    padding-left:var(--nav-bar-padding);
+    padding-right:var(--nav-bar-padding);
+}
+
+#nav-bar {
+    top:0px;
+}
+
 #footer {
-    position:relative;
-    top:25px;
-    clear:both;
+    bottom:0px;
 }
 
 .topic {
