@@ -3,9 +3,9 @@ window.addEventListener("load", (e) => {
                     <center>\
                         <nav id=\"nav-bar\">\
                             <ul>\
-                                <li><a class=\"button-links\" href=\"index.html\" aria-label=\"Main page\">Main</a></li>\
-                                <li><a class=\"button-links\" href=\"resume.html\" aria-label=\"Resume page\">Resume</a></li>\
-                                <li><a class=\"button-links\" href=\"portfolio.html\" aria-label=\"Portfolio page\">Portfolio</a></li>\
+                                <li><a class=\"nav-button\" href=\"index.html\" aria-label=\"Main page\">Main</a></li>\
+                                <li><a class=\"nav-button\" href=\"resume.html\" aria-label=\"Resume page\">Resume</a></li>\
+                                <li><a class=\"nav-button\" href=\"portfolio.html\" aria-label=\"Portfolio page\">Portfolio</a></li>\
                             </ul>\
                         </nav>\
                     </center>\
