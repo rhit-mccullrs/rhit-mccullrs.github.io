@@ -54,8 +54,7 @@ footer center nav ul li a:visited {
     color:#00bc00;
     text-decoration:none;
     font-size:2em;
-    padding-left:var(--nav-bar-padding);
-    padding-right:var(--nav-bar-padding);
+    padding:var(--nav-bar-padding);
 }
 
 #nav-bar {
