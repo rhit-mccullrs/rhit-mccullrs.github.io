@@ -64,6 +64,7 @@ footer center nav ul li a:visited {
 #footer {
     bottom:0px;
     margin-top:10px;
+    position:fixed;
 }
 
 .topic {
